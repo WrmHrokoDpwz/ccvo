@@ -72,6 +72,6 @@ async def skip_str(_, message: Message):
         img = await gen_thumb(videoid, user_id)
         return await message.reply_photo(
             photo=img,
-            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ تـم الـتـشـغـيـل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المدة :** `{duration}` دقيقه\n⎊ **بواسطه :** {req_by}\n‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫",
+            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ تـم الـتـشـغـيـل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المدة :** `{duration}` دقيقه\n⎊ **بواسطه :** {req_by}\n‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫",
             reply_markup=buttons,
         )
