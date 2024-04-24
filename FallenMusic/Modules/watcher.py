@@ -105,6 +105,6 @@ async def on_stream_end(pytgcalls, update: Update):
         await app.send_photo(
             chat_id=chat_id,
             photo=img,
-            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ بـدأ التشغيل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المدة :** `{duration}` دقيقه\n⎊ **بواسطه :** {req_by}\n‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫",
+            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ بـدأ التشغيل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المدة :** `{duration}` دقيقه\n⎊ **بواسطه :** {req_by}\n‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫",
             reply_markup=buttons,
         )
