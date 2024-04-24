@@ -1,7 +1,7 @@
 {
-    "name": "⦓ سورس جافا 🚀 ⦔",
+    "name": "⦓ سورس دوز 🚀 ⦔",
     "description": "تنصيب بوتات القرآن الكريم والاغاني وغيره للتشغيل في المكالمات الصوتية",
-    "logo": "https://graph.org/file/dad0c165c6157a5ef9c82.jpg",
+    "logo": "https://i.postimg.cc/BbbdCrPP/image.png",
     "keywords": [
     "python3",
     "telegram",
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/naj_vab",
+        "value": "https://t.me/DOWZW",
         "required": false
       }
     },
