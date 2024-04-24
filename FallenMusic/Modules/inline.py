@@ -68,7 +68,7 @@ async def inline_query_handler(_, query):
                 ]
             )
             searched_text = f"""
-‌‌‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫
+‌‌‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫
 ⎊ **العنوان :** [{title}]({link})
 
 ⎊ **المدة :** `{duration}`دقيقه
@@ -77,7 +77,7 @@ async def inline_query_handler(_, query):
 ⎊ **القناة :** [{channel}]({channellink})
 
 <u>⎊ **بوآسـطه  {BOT_NAME}**</u>
-‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس جافا ⦔ ♢━‌‌‏⌯⊷≫"""
+‌‌‏≪⊶⌯━‌‌‏♢ ⦓ سورس دوز ⦔ ♢━‌‌‏⌯⊷≫"""
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,
