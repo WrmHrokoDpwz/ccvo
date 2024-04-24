@@ -24,4 +24,4 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/WOFKC")
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5656828413").split()))
 
 
-FAILED = "https://graph.org/file/6e5004198c3bdbba84bdc.jpg"
+FAILED = "https://i.postimg.cc/BbbdCrPP/image.png"
